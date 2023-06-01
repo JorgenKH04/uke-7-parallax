@@ -42,7 +42,7 @@ p {
 }
 
 .titleimage {
-  background-image: url("/images/image1.jpg");
+  background-image: url("./images/image1.jpg");
   min-height: 100%;
   display: flex;
   justify-content: center;
@@ -50,12 +50,12 @@ p {
 }
 
 .titleimage2 {
-  background-image: url("/images/image1.jpg");
+  background-image: url("./images/image1.jpg");
   min-height: 45%;
 }
 
 .image2 {
-  background-image: url("/images/image2.jpg");
+  background-image: url("./images/image2.jpg");
 }
 
 .image3 {
