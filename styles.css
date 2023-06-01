@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  line-height: 1.5em;
+  font-family: "Khand", sans-serif;
+  color: #fbf7f5;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0.5em 1em;
+}
+
+.border {
+  background-color: #630509;
+  padding: 0.15em 0.3em;
+  font-size: 3rem;
+  font-weight: 700;
+  /* text-shadow: white 0 0 0.025em; */
+  border: 0.05em solid #8a070d;
+  border-radius: 0.05em;
+}
+
+.section {
+  background-color: #630509;
+  padding: 2em 4em;
+}
+
+.titleimage {
+  background-image: url("/images/image1.jpg");
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleimage2 {
+  background-image: url("/images/image1.jpg");
+  min-height: 45%;
+}
+
+.image2 {
+  background-image: url("/images/image2.jpg");
+}
+
+.image3 {
+  background-image: url("./images/image3.jpg");
+}
+
+.titleimage,
+.titleimage2,
+.image2,
+.image3 {
+  position: relative;
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.image2,
+.image3 {
+  min-height: 20em;
+}
